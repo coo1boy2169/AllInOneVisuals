@@ -1,4 +1,15 @@
 /* Reset and base styles */
+
+
+/* .noto-sans-<uniquifier> {
+  font-family: "Noto Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
 * {
     margin: 0;
     padding: 0;
@@ -25,11 +36,14 @@
   
   /* Navigation */
   nav {
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 200;
     font-size: 2rem;
     height: 15rem;
     width: 100%;
     z-index: 50;
-    background: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(8px);
   }
   
@@ -127,7 +141,10 @@
   }
   
   .about p {
-    font-size: 1.3rem;
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-style: normal;
     margin-bottom: 1.5rem;
   }
   .about-content {
@@ -151,13 +168,15 @@
   /* Gallery Section */
   .gallery {
     padding: 5rem 0;
-    background: black;
+    background: rgb(235, 233, 233);
   }
   
   .gallery h2 {
     font-size: 2.5rem;
     text-align: center;
+    color: black;
     margin-bottom: 3rem;
+    -webkit-text-stroke: #d6d2d2 1px;
   }
   
   .gallery-grid {
@@ -327,7 +346,7 @@
     width: 100%;
     padding: 0.75rem 1rem;
     background: rgba(0, 0, 0, 0.5);
-    border: 1px solid #f090ff;
+    border: 1px solid #ffffff;
     border-radius: 0.5rem;
     color: rgba(333, 333, 333,0.5);
   }
@@ -343,7 +362,7 @@
   }
   
   button {
-    border: #f090ff solid 0.1rem;
+    border: #fbfbfb solid 0.1rem;
     width: 10rem;
     height: 4rem;
     float: right;
